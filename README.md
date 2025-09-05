@@ -1,2 +1,20 @@
-# disk-health-checker
-A PowerShell script that scans physical disks for health status using SMART data and system diagnostics. It provides a quick overview of disk conditions, flags potential issues, and helps users monitor hardware reliability—ideal for IT admins, power users, or anyone maintaining critical storage systems.
+# 🛠️ Disk Health Checker (PowerShell)
+
+A PowerShell script that checks the health status of physical disks using SMART data and system diagnostics. Designed for Windows environments, this tool helps users monitor disk reliability and detect early signs of failure.
+
+## 🚀 Features
+- Retrieves SMART status and health indicators
+- Lists physical disks with media type, size, and status
+- Highlights disks with potential issues
+- Lightweight and fast execution
+
+## 📦 Requirements
+- Windows OS
+- PowerShell 5.0 or later
+- Administrator privileges (recommended)
+
+## 🧪 Usage
+1. Open PowerShell as Administrator.
+2. Run the script:
+   ```powershell
+   .\disk-health-check.ps1
